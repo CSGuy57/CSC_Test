@@ -60,19 +60,19 @@ create_milestone() {
 }
 
 echo "Creating milestones..."
-create_milestone "M0 Proposal approved"      "2025-10-02" \
+create_milestone "M0 Proposal approved"      "2026-10-02" \
   "Proposal submitted and defended. Repo and board live."
-create_milestone "M1 Core tech proven"       "2025-10-30" \
+create_milestone "M1 Core tech proven"       "2026-10-30" \
   "Toolchain builds from source. Technical demo runs. Export runs on a second machine."
-create_milestone "M2 Vertical slice"         "2025-12-18" \
+create_milestone "M2 Vertical slice"         "2026-12-18" \
   "One complete pass through the core loop, start to finish."
-create_milestone "M3 Legible and playable"   "2026-02-13" \
+create_milestone "M3 Legible and playable"   "2027-02-13" \
   "A first-time user understands the core interaction. Playtest report written."
-create_milestone "M4 Content complete"       "2026-04-09" \
+create_milestone "M4 Content complete"       "2027-04-09" \
   "All planned content present. Feature freeze begins."
-create_milestone "M5 Release candidate"      "2026-05-07" \
+create_milestone "M5 Release candidate"      "2027-05-07" \
   "Bugs triaged, build published, documentation complete."
-create_milestone "M6 Defense and postmortem" "2026-05-22" \
+create_milestone "M6 Defense and postmortem" "2027-05-22" \
   "Public demonstration, final presentation, written postmortem."
 
 echo
